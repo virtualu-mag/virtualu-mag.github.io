@@ -3,9 +3,13 @@ Website for the VirtualU Magazine, your weekly Vtuber gossip column with new edi
 
 VirtualU Staff:
 CEO: Aya Mallowmarsh @AyaMallowmarsh
+
 COO: Mera Kiran @MeraMerakiira
+
 CIO: DiCreative  @DiCreative13
+
 Anchor/Newscast: ZephyrRebel @ ZephyrRebel
+
 
 Site Maintainer:
 AcerolaVR @Acerowola
