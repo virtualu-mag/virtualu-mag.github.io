@@ -1,0 +1,82 @@
+/* Base Styles
+********************************************************************* */
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #222;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+/* five columns side by side */
+.column {
+  float: left;
+  margin: auto;
+  margin-bottom: 16px;
+  overflow-wrap: break-word;
+  padding: 0 8px;
+  width: 19%;
+}
+
+/* Meet the Team Styles
+********************************************************************* */
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    display: block;
+    overflow-wrap: break-word;
+    width: 100%;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  background-color: #705AA5;
+  border-radius: 50px / 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  color: #222;
+  font-size: 85%;
+  font-weight: 500;
+  line-height: .3;
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.name {
+  color: #FDFDFD;
+}
+
+.title {
+  color: #D8DFE7;
+  padding-left: 16px;
+}
+
+.icon {
+  border: none;
+  color: #FDFDFD;
+  cursor: pointer;
+  display: inline-block;
+  size: 150%;
+  margin-bottom: 16px;
+  outline: 0;
+  padding-right: 8px;
+  text-align: center;
+  width: 5%;
+}
+
+.icon:hover {
+  color: #555;
+}
